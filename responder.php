@@ -32,7 +32,7 @@ while ($linha = mysqli_fetch_array($resultado)) {
 
 ?>
 
-    <button type="submit "class="enviar btn btn-dark">ENVIAR PARA CORREÇÃO</button>
+    <button type="submit "class="btn btn-dark">ENVIAR PARA CORREÇÃO</button>
 
 
 <?php
