@@ -3,7 +3,7 @@ $titulo = "Cadastro";
 include "./cabecalho.php";
 include "./conexao.php";
 
-if (isset($_POST) && !empty($_POST) && !empty($_POST["pergunta"]) && !empty($_POST["correta"])) {
+if (isset($_POST) && !empty($_POST["pergunta"]) && !empty($_POST["correta"])) {
     $pergunta = $_POST["pergunta"];
     $a = $_POST["A"];
     $b = $_POST["B"];
